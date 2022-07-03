@@ -1,0 +1,22 @@
+.home {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: 100vh;
+}
+
+.homeLeft {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+.homeRight {
+  border-left: 1px solid black;
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+}

@@ -52,7 +52,7 @@ const Login = () => {
           )}
         </Button>
 
-        <Link to="/forget/password">
+        <Link to="/forgot/password">
           <Typography variant="h6">Forget Password?</Typography>
         </Link>
         <Button
